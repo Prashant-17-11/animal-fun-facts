@@ -1,23 +1,37 @@
 div {
   box-sizing: border-box;
-  max-height: 98vh;
+  max-height: 80vh;
+}
+h1 {
+  text-align: center;
+  font-size: 3.25rem;
+  color: rgb(174, 235, 253);
+  text-shadow: 0 1px 5px #666;
+}
+p {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(249, 253, 4);
 }
 .background {
-  display: block;
-  margin: auto;
-  width: 98vw;
-  height: 90vh;
+  display: relative;
+  top: 25vh;
+  width: 95vw;
+  height: 60vh;
+  margin: 2vh 1vw;
   z-index: 0;
 }
 .animals {
   display: flex;
-  position: relative;
-  top: -80vh;
+  position: absolute;
+  top: 25vh;
   margin: 1rem;
+  flex-wrap: wrap;
   z-index: 100;
 }
 .animal {
-  margin: 3vh 4vw;
-  width: 250px;
-  height: 250px;
+  position: relative;
+  margin: 20vh 5.5vw;
+  width: 20vw;
+  height: 30vh;
 }

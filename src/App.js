@@ -1,4 +1,4 @@
-import backgroundImage from "./images/ocean-bed.jpg";
+import backgroundImage from "./images/ocean.jpg";
 
 import { animals } from "./Animals";
 import "./App.css";
@@ -18,7 +18,7 @@ const background = (
 const animalFacts = (
   <div>
     <h1>{title === "" ? "Click an Animal for Fun Fact!!!" : title}</h1>{" "}
-    <p id="fact"></p>
+    <p id="fact">Be prepared for some Fun Facts!!</p>
     {showBackground ? background : null}
     <div className="animals">{images}</div>
   </div>
